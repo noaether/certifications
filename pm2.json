@@ -1,0 +1,104 @@
+{
+  "apps": [
+    {
+      "name": "exercise-tracker",
+      "script": "./backend_and_apis/boilerplate-project-exercisetracker/index.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3000"
+      }
+    },
+    {
+      "name": "file-metadata",
+      "script": "./backend_and_apis/boilerplate-project-filemetadata/index.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3001"
+      }
+    },
+    {
+      "name": "header-parser",
+      "script": "./backend_and_apis/boilerplate-project-headerparser/index.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3002"
+      }
+    },
+    {
+      "name": "timestamp",
+      "script": "./backend_and_apis/boilerplate-project-timestamp/index.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3003"
+      }
+    },
+    {
+      "name": "url-shortener",
+      "script": "./backend_and_apis/boilerplate-project-urlshortener/index.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3004"
+      }
+    },
+    {
+      "name": "american-british-english-translator",
+      "script": "./quality_assurance/boilerplate-project-american-british-english-translator-main/server.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3005"
+      }
+    },
+    {
+      "name": "issue-tracker",
+      "script": "./quality_assurance/boilerplate-project-issuetracker-main/server.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3006"
+      }
+    },
+    {
+      "name": "library",
+      "script": "./quality_assurance/boilerplate-project-library-main/server.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3007"
+      }
+    },
+    {
+      "name": "metric-imp-converter",
+      "script": "./quality_assurance/boilerplate-project-metricimpconverter-main/server.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3008"
+      }
+    },
+    {
+      "name": "sudoku-solver",
+      "script": "./quality_assurance/boilerplate-project-sudoku-solver-main/server.js",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3009"
+      }
+    }
+  ]
+}
