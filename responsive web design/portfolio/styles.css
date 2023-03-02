@@ -1,0 +1,188 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for small screens */
+  header {
+    position: static;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav ul {
+    height: auto;
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #333;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+  }
+
+  nav a.active {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .project-tile {
+    width: 100%;
+  }
+
+  .welcome-container h1 {
+    font-size: 2em;
+  }
+
+  .welcome-container p {
+    font-size: 1em;
+  }
+}
+
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #eee;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+/* Main styles */
+main {
+  padding-top: 70px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+/* Welcome section styles */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.welcome-container {
+  text-align: center;
+}
+
+.welcome-container h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.welcome-container p {
+  font-size: 1.5em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Projects section styles */
+#projects {
+  background-color: #fff;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-tile {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.project-tile img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-tile h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-tile p {
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#profile-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#profile-link:hover {
+  text-decoration: underline;
+}
