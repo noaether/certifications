@@ -1,3 +1,17 @@
 # URL Shortener Microservice
 
-This is the boilerplate code for the URL Shortener Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice.
+This project was completed as part of the backend and APIs certification on freeCodeCamp.org.
+
+## Project Description
+
+The URL Shortener Microservice project is a simple web application that allows users to shorten a URL. The application was built using Node.js, Express.js, and MongoDB.
+
+### Skills Used and Developed
+
+- JavaScript
+- Node.js
+- Express.js
+- HTTP
+- MongoDB
+- Validating URLs
+- Creating Short URLs
