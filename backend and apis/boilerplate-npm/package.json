@@ -1,0 +1,19 @@
+{
+	"name": "fcc-learn-npm-package-json",
+  "version": "1.2.0",
+  "author": "noaether",
+  "description": "a boilerplate for a freecodecamp certification",
+  "keywords": ["i", "know", "how", "to", "use", "package.json", "why", "do", "this", "to", "me", "freecodecamp"],
+  "license": "MIT",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
+}
