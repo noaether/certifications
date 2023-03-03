@@ -1,3 +1,5 @@
 node_modules/
 package-lock.json
 backend and apis/boilerplate-project-filemetadata/uploads/*
+pm2.json
+pm2.json
